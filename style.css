@@ -1,0 +1,140 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.banner {
+    width: 100%;              
+    height: 580px;             
+    background-image: url('banner.jpeg'); 
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    position: relative;
+    top: -10px;      
+} 
+*/
+.accomodationList{
+    display: flex;
+      gap: 16px; /* Spacing between cards */
+      overflow-x: auto; /* Allows horizontal scrolling if cards overflow */
+      padding: 16px;
+      box-sizing: border-box;
+      max-width: 100%; /* Adjusts for screen size */
+}
+.accomodationCard{
+    position: relative;
+    width: 225px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 292px;
+    display: flex;
+}
+.accomodationCard img {
+    width: 225pxs;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.accomodationCard .accomodationHover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}    
+.accomodationList::-webkit-scrollbar {
+    display: none;
+}
+.accomodationList {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;    /* Firefox */
+}
+.tipsList{
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .tipCard {
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .tipCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .tipCard .tipCardContent {
+    padding: 16px;
+  }
+
+  .tipRating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .tipRating .tipScore {
+    background-color: #2a9d8f;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .tipRating span {
+    color: #555;
+    font-size: 14px;
+  }
+
+  .tipCard h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 8px 0;
+  }
+
+  .tipCard .location {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 12px;
+  }
+
+  .tipCard .price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  .tipCard .details {
+    font-size: 14px;
+    color: #777;
+  }
+  .tipsList::-webkit-scrollbar {
+    display: none;
+  }
+  .tipsList {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+  
+
