@@ -1,8 +1,8 @@
-/* *{
+ *{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}
+}/*
 .banner {
     width: 100%;              
     height: 580px;             
@@ -136,5 +136,185 @@
     -ms-overflow-style: none; 
     scrollbar-width: none;
   }
+  .container {
+    display: flex;
+    gap: 5px;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 600px;
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 12px;
+    height: auto;
+    display: block;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .card-description {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  /* .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+   */
+  .holidayHomes h1 {
+    font-size: 28px;
+  }
   
+  .holidayHomes p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .holidayHomes .offer-period {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .holidayHomesList {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .holidayHomesCard {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .holidayHomesCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .holidayHomesCard .holidayHomesRating {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .holidayHomesCard .holidayHomesRating .holidayHomesScore {
+    background-color: #118849;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .holidayHomesLabel {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .holidayHomesReviews{
+    color: #666;
+  }
+  
+  .holidayHomesCard h4 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .holidayHomesCard p {
+    padding: 0 10px;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .holidayHomesPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e3358;
+    padding: 10px;
+  }
+  
+  .holidayHomesPriceDetails {
+    padding: 0 10px 10px;
+    font-size: 14px;
+    color: #666;
+  }
+.FindPrivent {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.findHeader h1 {
+    font-size: 2rem;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.findHeader p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.FindCards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    text-wrap: ;
+}
+
+.FindCard{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(25% - 10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.FindCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.FindCards span {
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #212121;
+}
+
+  
+
 
